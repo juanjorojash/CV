@@ -1,0 +1,200 @@
+cv:
+  name: Dr.-Ing. Juan J. Rojas
+  email: juanjorojash@gmail.com
+  phone: +506-88581419
+  sections:
+    Contact information:
+    - label: ID
+      details: '303910836'
+    - label: Correo
+      details: juanjorojash@gmail.com
+    - label: ORCID
+      details: 0000-0002-3261-5005
+    Education:
+    - institution: Instituto Tecnológico de Costa Rica
+      area: Electromechanical Engineering
+      degree: Bachelor
+      location: Costa Rica
+      end_date: '2008'
+    - institution: Instituto Tecnológico de Costa Rica
+      area: Electronics Engineering with emphasis on MEMS
+      degree: Master
+      location: Costa Rica
+      end_date: '2016'
+    - institution: Kyushu Institute of Technology
+      area: Applied science for systems integration engineering
+      degree: Doctor
+      location: Japan
+      end_date: '2020'
+    - institution: Instituto Tecnológico de Costa Rica
+      area: Data Science
+      degree: Specialization
+      location: Costa Rica
+      end_date: '2023'
+    Experience:
+    - company: Crowne Plaza Hotel
+      position: Maintenance Manager
+      start_date: '2013-02-01'
+      end_date: '2013-06-01'
+      summary: Facilities management and investments
+    - company: Musmanni Corporation
+      position: Project Engineer
+      start_date: '2012-04-01'
+      end_date: '2012-12-01'
+      summary: Facilities remodeling and construction
+    - company: Walmart
+      position: Electromechanical Instalations Engineer
+      start_date: '2008-12-01'
+      end_date: '2012-03-01'
+      summary: Electromechanical installations coordination in construction projects
+    Languages:
+    - bullet: 'English: TOEFL 100/120 iBT'
+    Interests:
+    - bullet: Custom-made cyber-physical systems oriented to specific user or community
+        needs
+    - bullet: Custom-made instrumentation systems
+    - bullet: Battery characterization and modeling
+    - bullet: Satellite power systems
+    Publications:
+    - title: Design of an embedded system for the control and regulation of the dynamic
+        charging and discharging process of electrochemical cells and its subsequent
+        validation for CubeSat 1U satellites
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Kevin Gómez-Villagra
+      - Juan José Rojas-Hernandez
+      date: 28/06/2024
+      doi: 10.18845/tm.v37i3.6833
+    - title: Development and testing of a system for remotely sensing wind speed
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Nestor Martínez-Soto
+      - Juan J. Rojas
+      - Gustavo Richmond-Navarro
+      date: 01/08/2022
+      doi: 10.18845/tm.v35i7.6331
+    - title: Vertical evolution of wind turbulence intensity in complex terrain with
+        obstacles
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Gustavo Richmond-Navarro
+      - Raziel Farid Sanabria-Sandí
+      - Luis Enrique Castro-Rodríguez
+      - Juan J. Rojas
+      - Williams R. Calderón-Muñoz
+      date: 01/08/2022
+      doi: 10.18845/tm.v35i7.6332
+    - title: 'Integration of an energy storage system in a wind farm: Case study'
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Jorge David Araya Rodríguez
+      - Juan J. Rojas
+      - Gustavo Richmond-Navarro
+      date: 01/08/2022
+      doi: 10.18845/tm.v35i7.6333
+    - title: Design and development of a microfluidic platform with interdigitated
+        electrodes for electrical impedance spectroscopy
+      journal: Revista Tecnología en Marcha
+      authors:
+      - José Miguel Barboza-Retana
+      - Cristopher Vega Sánchez
+      - Juan J. Rojas
+      - Steven Quiel Hidalgo
+      - Sofía Madrigal Gamboa
+      - Paola Vega Castillo
+      - Renato Rimolo Donadio
+      date: 15/12/2021
+      doi: 10.18845/tm.v35i1.5389
+    - title: A Lean Satellite Electrical Power System with Direct Energy Transfer
+        and Bus Voltage Regulation Based on a Bi-Directional Buck Converter
+      journal: Aerospace
+      authors:
+      - Juan J. Rojas
+      - Yamauchi Takashi
+      - Mengu Cho
+      date: 05/07/2020
+      doi: 10.3390/aerospace7070094
+    - title: Design, Implementation, and Operation of a Small Satellite Mission to
+        Explore the Space Weather Effects in LEO
+      journal: Aerospace
+      authors:
+      - Isai Fajardo
+      - Aleksander Lidtke
+      - Sidi Bendoukha
+      - Jesus Gonzalez-Llorente
+      - Rafael Rodríguez
+      - Rigoberto Morales
+      - Dmytro Faizullin
+      - Misuzu Matsuoka
+      - Naoya Urakami
+      - Ryo Kawauchi
+      - Masayuki Miyazaki
+      - Naofumi Yamagata
+      - Ken Hatanaka
+      - Farhan Abdullah
+      - Juan Rojas
+      - Mohamed Keshk
+      - Kiruki Cosmas
+      - Tuguldur Ulambayar
+      - Premkumar Saganti
+      - Doug Holland
+      - Tsvetan Dachev
+      - Sean Tuttle
+      - Roger Dudziak
+      - Kei-ichi Okuyama
+      date: 27/09/2019
+      doi: 10.3390/aerospace6100108
+    Research:
+    - name: Design and implementation of an Electrical Impedance Spectroscopy System
+        for Bioengineering applications
+      start_date: '2016-01-01'
+      end_date: '2019-12-31'
+    - name: Clean Energy Program of the Costa Rica Institute of Technology (PELTEC)
+      start_date: '2010-01-01'
+      end_date: '2012-12-31'
+    - name: Development of an integrated system for CubeSat power system testing
+      start_date: '2022-01-01'
+      end_date: '2024-06-30'
+    - name: Diagnosis of the potential for digital transformation of Rural Aqueduct
+        Administrative Associations (ASADAS) in the Chorotega Region
+      start_date: '2022-01-01'
+      end_date: '2023-06-30'
+    - name: 'Development of a pilot digitalization plan in ASADAS: towards better
+        water resource utilization through the incorporation of IoT systems'
+      start_date: '2023-05-15'
+      end_date: '2023-12-31'
+    - name: 'Predictive maintenance: development of diagnostic and prognostic systems'
+      start_date: '2024-01-01'
+      end_date: '2025-12-31'
+    - name: 'Development of a monitoring and alert system for the detection of heat
+        exposure in agricultural work: Application in sugarcane harvesting'
+      start_date: '2025-01-01'
+      end_date: '2027-12-31'
+    - name: Development of a scalable and modular technological platform for the registration
+        of physical and chemical variables associated with the quality and abundance
+        of drinking water
+      start_date: '2025-01-01'
+      end_date: '2027-12-31'
+    - name: 'ASADAS-IoT: Development and transfer of a scalable, modular, and open
+        technological platform for the ASADA of Paso Ancho, Oreamuno, Cartago'
+      start_date: '2025-01-01'
+      end_date: '2026-12-31'
+locale:
+  phone_number_format: national
+  last_updated_date_template: 'Last updated: 28/08/2025'
+  date_template: MONTH_ABBREVIATION YEAR
+rendercv_settings:
+  date: '2025-06-08'
+  render_command:
+    output_folder_name: CVs
+    dont_generate_html: true
+    dont_generate_markdown: true
+    dont_generate_png: true
+design:
+  theme: engineeringresumes
+  entry_types:
+    education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE en AREA'
+      degree_column_width: 2.5cm
+    experience_entry:
+      date_and_location_column_template: DATE
