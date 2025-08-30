@@ -3,13 +3,21 @@ cv:
   email: juanjorojash@gmail.com
   phone: +506-88581419
   sections:
+    Profile:
+    - Engineer and researcher skilled in PCB design,         3D modeling and simulation,
+      and system integration for cyber-physical systems and custom instrumentation.         Proficient
+      in developing, testing and modeling small-scale energy storage systems, and
+      in creating tailored solutions          for aerospace power systems. Experienced
+      in translating complex system requirements into reliable prototypes and experimental
+      platforms,          combining hardware design, multiphysics simulation, and
+      hands-on implementation in cyber-physical systems for aerospace and IoT applications.
     Contact information:
     - label: ID
       details: '303910836'
-    - label: Correo
-      details: juanjorojash@gmail.com
     - label: ORCID
-      details: 0000-0002-3261-5005
+      details: '[0000-0002-3261-5005](https://orcid.org/0000-0002-3261-5005)'
+    - label: LinkedIn
+      details: '[juan-josé-rojas-hernández-257903b](https://www.linkedin.com/in/juan-jos%C3%A9-rojas-hern%C3%A1ndez-257903b/)'
     Education:
     - institution: Instituto Tecnológico de Costa Rica
       area: Electromechanical Engineering
@@ -180,8 +188,8 @@ cv:
       start_date: '2025-01-01'
       end_date: '2026-12-31'
 locale:
-  phone_number_format: national
-  last_updated_date_template: 'Last updated: 28/08/2025'
+  phone_number_format: international
+  last_updated_date_template: 'Last updated: 30/08/2025'
   date_template: MONTH_ABBREVIATION YEAR
 rendercv_settings:
   date: '2025-06-08'

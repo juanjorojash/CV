@@ -142,10 +142,17 @@ def make_rendercv_yaml(id,datos,grados):
     languag = make_language_entries(idiomas[idiomas["codigo"]==id])
     interes = make_interest_entries(areas[areas["codigo"]==id])
     sections = {
+    "Profile": [
+        "Engineer and researcher skilled in PCB design,\
+         3D modeling and simulation, and system integration for cyber-physical systems and custom instrumentation.\
+         Proficient in developing, testing and modeling small-scale energy storage systems, and in creating tailored solutions \
+         for aerospace power systems. Experienced in translating complex system requirements into reliable prototypes and experimental platforms, \
+         combining hardware design, multiphysics simulation, and hands-on implementation in cyber-physical systems for aerospace and IoT applications."
+    ],
     "Contact information": [
         {"label": "ID", "details": str(datos["cedula"])},
-        {"label": "Correo", "details": datos["correo"]},
         {"label": "ORCID", "details": datos["orcid"] if datos["orcid"] != "00" else "N/A"},
+        {"label": "LinkedIn", "details": "[juan-josé-rojas-hernández-257903b](https://www.linkedin.com/in/juan-jos%C3%A9-rojas-hern%C3%A1ndez-257903b/)"},
     ]
     }
     sections["Education"] = education
@@ -168,7 +175,7 @@ def make_rendercv_yaml(id,datos,grados):
             "sections": sections,         
         },
         "locale": {
-            "phone_number_format": "national",
+            "phone_number_format": "international",
             "last_updated_date_template": f"Last updated: {today.strftime("%d/%m/%Y")}",
             "date_template": "MONTH_ABBREVIATION YEAR",
         },
