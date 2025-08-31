@@ -25,7 +25,7 @@ areas = pd.read_csv("04_areas_interes.csv")
 cursos = pd.read_csv("05_cursos.csv")
 publicaciones = pd.read_csv("06_publicaciones.csv")
 publicaciones.fillna("0",inplace=True)
-carrera = pd.read_csv("07_carrera.csv")
+certificados = pd.read_csv("07_certificados.csv")
 proyect = pd.read_csv("08_proyectos_inv_ext.csv")
 proyect["codigo"] = proyect["codigo"].str.split(";",expand=False)
 proyect = proyect.explode("codigo")
@@ -86,6 +86,16 @@ def make_publication_entries(publicaciones):
         publication_entries.append(entry)
     return publication_entries
 
+def make_certificates_entries(certificados):
+    certificate_entries = []
+    for _, row in certificados.iterrows():
+        entry = {
+            "label": f"[{row["certificado"]}]({row["link"]}) on {row["institucion"]}",
+            "details": row["fecha"],
+        }
+        certificate_entries.append(entry)
+    return certificate_entries
+
 def make_research_entries(proyect):
     research_entries = []
     for _, row in proyect.iterrows():
@@ -141,6 +151,7 @@ def make_rendercv_yaml(id,datos,grados):
     experie = make_experience_entries(experi[experi["codigo"]==id])
     languag = make_language_entries(idiomas[idiomas["codigo"]==id])
     interes = make_interest_entries(areas[areas["codigo"]==id])
+    certifi = make_certificates_entries(certificados[certificados["codigo"]==id])
     sections = {
     "Profile": [
         "Engineer and researcher skilled in PCB design,\
@@ -149,7 +160,7 @@ def make_rendercv_yaml(id,datos,grados):
          for aerospace power systems. Experienced in translating complex system requirements into reliable prototypes and experimental platforms, \
          combining hardware design, multiphysics simulation, and hands-on implementation in cyber-physical systems for aerospace and IoT applications."
     ],
-    "Contact information": [
+    "Personal information": [
         {"label": "ID", "details": str(datos["cedula"])},
         {"label": "ORCID", "details": datos["orcid"] if datos["orcid"] != "00" else "N/A"},
         {"label": "LinkedIn", "details": "[juan-josé-rojas-hernández-257903b](https://www.linkedin.com/in/juan-jos%C3%A9-rojas-hern%C3%A1ndez-257903b/)"},
@@ -164,6 +175,8 @@ def make_rendercv_yaml(id,datos,grados):
         sections["Interests"] = interes
     if public:
         sections["Publications"] = public
+    if certifi:
+        sections["Certificates"] = certifi
     if research:
         sections["Research"] = research
 

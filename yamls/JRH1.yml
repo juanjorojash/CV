@@ -11,7 +11,7 @@ cv:
       in translating complex system requirements into reliable prototypes and experimental
       platforms,          combining hardware design, multiphysics simulation, and
       hands-on implementation in cyber-physical systems for aerospace and IoT applications.
-    Contact information:
+    Personal information:
     - label: ID
       details: '303910836'
     - label: ORCID
@@ -56,7 +56,10 @@ cv:
       end_date: '2012-03-01'
       summary: Electromechanical installations coordination in construction projects
     Languages:
+    - bullet: 'Spanish: Native'
     - bullet: 'English: TOEFL 100/120 iBT'
+    - bullet: 'Portuguese: Basic conversation'
+    - bullet: 'Japanese: Beginner'
     Interests:
     - bullet: Custom-made cyber-physical systems oriented to specific user or community
         needs
@@ -152,6 +155,53 @@ cv:
       - Kei-ichi Okuyama
       date: 27/09/2019
       doi: 10.3390/aerospace6100108
+    Certificates:
+    - label: '[Introduction to Power Electronics](https://www.coursera.org/account/accomplishments/verify/5CSXP3DNCMGU)
+        on Coursera'
+      details: Certificate earned on December 6, 2016
+    - label: '[Converter Circuits](https://www.coursera.org/account/accomplishments/records/SV59N2YTCFD2)
+        on Coursera'
+      details: Certificate earned on February 14, 2017
+    - label: '[Converter Control](https://www.coursera.org/account/accomplishments/records/QUQBQ3QHCKQL)
+        on Coursera'
+      details: Certificate earned on March 19, 2017
+    - label: '[Embedded Software and Hardware Architecture](https://www.coursera.org/account/accomplishments/verify/RHTEU3M6VV9X)
+        on Coursera'
+      details: Certificate earned on August 20, 2019
+    - label: '[Introduction to Embedded Systems Software and Development Environments](https://www.coursera.org/account/accomplishments/verify/2UMXLMB3TKXS)
+        on Coursera'
+      details: Certificate earned on September 5, 2019
+    - label: '[Introduction to battery-management systems](https://www.coursera.org/account/accomplishments/verify/F7Q3G8HRKMKB)
+        on Coursera'
+      details: Certificate earned on September 3, 2020
+    - label: '[Mathematics for Data Science](nan) on Instituto Tecnológico de Costa
+        Rica'
+      details: Certificate earned on July 22, 2021
+    - label: '[Machine Learning](nan) on Instituto Tecnológico de Costa Rica'
+      details: Certificate earned on September 23, 2021
+    - label: '[Statistics for Data Science](nan) on Instituto Tecnológico de Costa
+        Rica'
+      details: Certificate earned on January 13, 2022
+    - label: '[Big Data](nan) on Instituto Tecnológico de Costa Rica'
+      details: Certificate earned on March 17, 2022
+    - label: '[Data Mining and Business Inteligence](nan) on Instituto Tecnológico
+        de Costa Rica'
+      details: Certificate earned on August 1, 2022
+    - label: '[Introduction to Semiconductor Packaging and Design](https://badgr.com/public/assertions/3ehRS86MRYq4kstRwCyMcg)
+        on Arizona State University'
+      details: Certificate earned on September 9, 2024
+    - label: '[Introduction to Electrical Concepts in Semiconductor Packaging](https://badgr.com/public/assertions/COMt3LooTQWtTr5PXILFTQ)
+        on Arizona State University'
+      details: Certificate earned on September 16, 2024
+    - label: '[Introduction to Thermal Management and Mechanical Properties of Packages](https://badgr.com/public/assertions/IvBteFUvQ8ugpXaeYOWj5Q)
+        on Arizona State University'
+      details: Certificate earned on September 25, 2024
+    - label: '[Materials Selection for Thermo-Mechanical and Electrical Performance](https://badgr.com/public/assertions/U6y8WNZyTJaHWdJnz2OR2g)
+        on Arizona State University'
+      details: Certificate earned on October 18, 2024
+    - label: '[2D Packaging & Assembly](https://badgr.com/public/assertions/6PnNrE-BRDCxMhZX89I3Vg)
+        on Arizona State University'
+      details: Certificate earned on October 18, 2024
     Research:
     - name: Design and implementation of an Electrical Impedance Spectroscopy System
         for Bioengineering applications
