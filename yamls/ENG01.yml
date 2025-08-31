@@ -217,71 +217,75 @@ cv:
         on SolidWorks'
       date: 22/03/2014
     Research:
-    - position: 'Development of a monitoring and alert system for the detection of
-        heat exposure in agricultural work: Application in sugarcane harvesting'
+    - position: 'Development of a Monitoring and Alert System for the Detection of
+        Heat Exposure in Agricultural Work: Application in Sugarcane Harvesting'
       start_date: '2025-01-01'
       end_date: '2027-12-31'
-      company: Research
-      summary: ' '
-    - position: Development of a scalable and modular technological platform for the
-        registration of physical and chemical variables associated with the quality
-        and abundance of drinking water
+      company: Instituto Tecnológico de Costa Rica
+      summary: Design, integration, verification, and validation of the monitoring
+        and alert system
+    - position: Development of a Scalable and Modular Technological Platform for the
+        Registration of Physical and Chemical Variables Associated with the Quality
+        and Abundance of Drinking Water
       start_date: '2025-01-01'
       end_date: '2027-12-31'
-      company: Research
-      summary: ' '
-    - position: 'ASADAS-IoT: Development and transfer of a scalable, modular, and
-        open technological platform for the ASADA of Paso Ancho, Oreamuno, Cartago'
+      company: Instituto Tecnológico de Costa Rica
+      summary: Integration of chemical sensing systems into the monitoring system
+        for rural aqueducts
+    - position: 'ASADAS-IoT: Development and Transfer of a Scalable, Modular, and
+        Open Technological Platform for the ASADA of Paso Ancho, Oreamuno, Cartago'
       start_date: '2025-01-01'
       end_date: '2026-12-31'
-      company: Extension
-      summary: ' '
-    - position: 'Predictive maintenance: development of diagnostic and prognostic
-        systems'
+      company: Instituto Tecnológico de Costa Rica
+      summary: Design, integration, verification, validation, and implementation of
+        the monitoring system for rural aqueducts
+    - position: 'Predictive Maintenance: Development of Diagnostic and Prognostic
+        Systems'
       start_date: '2024-01-01'
       end_date: '2025-12-31'
-      company: Research
-      summary: ' '
-    - position: 'Development of a pilot digitalization plan in ASADAS: towards better
-        water resource utilization through the incorporation of IoT systems'
+      company: Instituto Tecnológico de Costa Rica
+      summary: Prediction of battery health using existing datasets
+    - position: 'Development of a Pilot Digitalization Plan in ASADAS: Towards Better
+        Water Resource Utilization through IoT Systems'
       start_date: '2023-05-15'
       end_date: '2023-12-31'
-      company: Extension
-      summary: ' '
-    - position: Development of an integrated system for CubeSat power system testing
+      company: Instituto Tecnológico de Costa Rica
+      summary: Implementation of a pilot integrated monitoring system for rural aqueducts
+    - position: Development of an Integrated System for CubeSat Power System Testing
       start_date: '2022-01-01'
       end_date: '2024-06-30'
-      company: Research
-      summary: ' '
-    - position: Diagnosis of the potential for digital transformation of Rural Aqueduct
+      company: Instituto Tecnológico de Costa Rica
+      summary: Design, integration, verification, and validation of the testing system
+    - position: Diagnosis of the Potential for Digital Transformation of Rural Aqueduct
         Administrative Associations (ASADAS) in the Chorotega Region
       start_date: '2022-01-01'
       end_date: '2023-06-30'
-      company: Extension
-      summary: ' '
-    - position: Development of a charger/discharger system for electrochemical cell
-        screening and testing
+      company: Instituto Tecnológico de Costa Rica
+      summary: Interviews and analysis with stakeholders for digital transformation
+        initiatives
+    - position: Development of a Charger/Discharger System for Electrochemical Cell
+        Screening and Testing
       start_date: '2016-10-01'
       end_date: '2016-10-01'
       company: Kyushu Institute of Technology (Center for Nanosatellite Testing)
-      summary: Design, integration, verification and validation of the system
+      summary: Design, integration, verification, and validation of the testing system
     - position: Ten-Koh Satellite
       start_date: '2016-09-01'
       end_date: '2018-11-01'
       company: Kyushu Institute of Technology (OkuyamaLAB)
-      summary: Design, integration and verification of the power subsystem
+      summary: Design, integration, and verification of the power subsystem
     - position: BATSU-CS1 CubeSat (Irazú Project)
       start_date: '2016-02-01'
       end_date: '2018-06-01'
       company: Instituto Tecnológico de Costa Rica
       summary: Definition and programming of flight segment operations, environmental
-        testing, integration
+        testing, and system integration
     - position: Design and implementation of an Electrical Impedance Spectroscopy
-        System for Bioengineering applications
+        System for Bioengineering Applications
       start_date: '2016-01-01'
       end_date: '2019-12-31'
       company: Instituto Tecnológico de Costa Rica
-      summary: ' '
+      summary: Fabrication and testing of multiple microfluidic devices
 locale:
   phone_number_format: international
   last_updated_date_template: 'Last updated: 31/08/2025'
