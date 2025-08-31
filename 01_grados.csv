@@ -1,9 +1,4 @@
 codigo,grado,campo,institucion,pais,año
-JRH0,Licenciatura,Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica,Costa Rica,2008
-JRH0,Maestría,Ingeniería en Electrónica con énfasis en microsistemas,Instituto Tecnológico de Costa Rica,Costa Rica,2016
-JRH0,Doctorado,Ciencia aplicada a la integración de sistemas,Instituto Tecnológico de Kyushu,Japón,2020
-JRH0,Especialización,Ciencia de los datos,Instituto Tecnológico de Costa Rica,Costa Rica,2023
-JRH1,Bachelor,Electromechanical Engineering,Instituto Tecnológico de Costa Rica,Costa Rica,2008
-JRH1,Master,Electronics Engineering with emphasis on MEMS,Instituto Tecnológico de Costa Rica,Costa Rica,2016
-JRH1,Doctor,Applied science for systems integration engineering,Kyushu Institute of Technology,Japan,2020
-JRH1,Specialization,Data Science,Instituto Tecnológico de Costa Rica,Costa Rica,2023
+ENG01,Bachelor,Electromechanical Engineering,Instituto Tecnológico de Costa Rica,Costa Rica,2008
+ENG01,Master,Electronics Engineering with emphasis on MEMS,Instituto Tecnológico de Costa Rica,Costa Rica,2016
+ENG01,Doctor,Applied science for systems integration engineering,Kyushu Institute of Technology,Japan,2020

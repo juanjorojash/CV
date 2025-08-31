@@ -18,7 +18,7 @@ today = date.today()
 # === Cargar los csv con los datos de los profes ===
 datos = pd.read_csv("00_datos.csv")
 grados = pd.read_csv("01_grados.csv")
-experi = pd.read_csv("02_experiencia_industria.csv")
+experi = pd.read_csv("02_experiencia.csv")
 experi.fillna("",inplace=True)
 idiomas = pd.read_csv("03_idiomas.csv")
 areas = pd.read_csv("04_areas_interes.csv")

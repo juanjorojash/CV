@@ -18,7 +18,8 @@ today = date.today()
 # === Cargar los csv con los datos de los profes ===
 datos = pd.read_csv("00_datos.csv")
 grados = pd.read_csv("01_grados.csv")
-experi = pd.read_csv("02_experiencia_industria.csv")
+grados = grados.sort_values(by="año",ascending=False)
+experi = pd.read_csv("02_experiencia.csv")
 experi.fillna("",inplace=True)
 idiomas = pd.read_csv("03_idiomas.csv")
 areas = pd.read_csv("04_areas_interes.csv")
@@ -26,9 +27,13 @@ cursos = pd.read_csv("05_cursos.csv")
 publicaciones = pd.read_csv("06_publicaciones.csv")
 publicaciones.fillna("0",inplace=True)
 certificados = pd.read_csv("07_certificados.csv")
-proyect = pd.read_csv("08_proyectos_inv_ext.csv")
-proyect["codigo"] = proyect["codigo"].str.split(";",expand=False)
-proyect = proyect.explode("codigo")
+certificados["fecha"] = pd.to_datetime(certificados["fecha"], format="%d/%m/%Y")
+certificados = certificados.sort_values(by="fecha",ascending=False)
+certificados["fecha"] = certificados["fecha"].dt.strftime("%d/%m/%Y") #conver back to string
+investigacion = pd.read_csv("08_investigacion.csv")
+investigacion["inicio"] = pd.to_datetime(investigacion["inicio"], format="%d/%m/%Y")
+investigacion = investigacion.sort_values(by="inicio",ascending=False)
+investigacion["inicio"] = investigacion["inicio"].dt.strftime("%d/%m/%Y")
 habilil = pd.read_csv("09_habilidades.csv")
 membres = pd.read_csv("10_membresias.csv")
                 
@@ -90,19 +95,21 @@ def make_certificates_entries(certificados):
     certificate_entries = []
     for _, row in certificados.iterrows():
         entry = {
-            "label": f"[{row["certificado"]}]({row["link"]}) on {row["institucion"]}",
-            "details": row["fecha"],
+            "name": f"[{row["certificado"]}]({row["link"]}) on {row["institucion"]}",
+            "date": row["fecha"],
         }
         certificate_entries.append(entry)
     return certificate_entries
 
-def make_research_entries(proyect):
+def make_research_entries(investigacion):
     research_entries = []
-    for _, row in proyect.iterrows():
+    for _, row in investigacion.iterrows():
         entry = {
-            "name": row["proyecto"],
+            "position": row["investigacion"],
             "start_date": convert_cr_to_iso(row["inicio"]),
-            "end_date": convert_cr_to_iso(row["fin"]),     
+            "end_date": convert_cr_to_iso(row["fin"]), 
+            "company": row["institution"],
+            "summary": row["detalles"]   
         }
         research_entries.append(entry)
     return research_entries
@@ -147,7 +154,7 @@ def make_rendercv_yaml(id,datos,grados):
                 nombre = f"{datos.nombre}, {datos.titulo}"
     education = make_education_entries(grados[grados["codigo"]==id])
     public = make_publication_entries(publicaciones[publicaciones["codigo"]==id])
-    research = make_research_entries(proyect[proyect["codigo"]==id])
+    research = make_research_entries(investigacion[investigacion["codigo"]==id])
     experie = make_experience_entries(experi[experi["codigo"]==id])
     languag = make_language_entries(idiomas[idiomas["codigo"]==id])
     interes = make_interest_entries(areas[areas["codigo"]==id])
@@ -205,7 +212,7 @@ def make_rendercv_yaml(id,datos,grados):
             "theme": "engineeringresumes", 
             "entry_types": {
                 "education_entry": {
-                    "main_column_first_row_template": '**INSTITUTION**, DEGREE en AREA',
+                    "main_column_first_row_template": '**INSTITUTION**, DEGREE in AREA',
                     "degree_column_width": "2.5cm"
                 },
                 "experience_entry": {
@@ -226,4 +233,4 @@ def generate_CV(id):
 
 
 
-generate_CV("JRH1")
+generate_CV("ENG01")

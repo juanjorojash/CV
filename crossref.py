@@ -230,12 +230,12 @@ def procesar_orcid_desde_csv(input_csv="00_datos.csv", output_csv="06_publicacio
     print(f"\n✅ Publicaciones exportadas a {output_csv}")
 
     if descartados:
-        with open("05_publicaciones_descartadas.csv", mode="w", newline="", encoding="utf-8") as f:
+        with open("99_publicaciones_descartadas.csv", mode="w", newline="", encoding="utf-8") as f:
             fieldnames = ["codigo", "titulo", "motivo"]
             writer = csv.DictWriter(f, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(descartados)
-        print(f"\n⚠️ {len(descartados)} publicaciones descartadas exportadas a 06_publicaciones_descartadas.csv")
+        print(f"\n⚠️ {len(descartados)} publicaciones descartadas exportadas a 99_publicaciones_descartadas.csv")
     else:
         print("\n✅ No hubo publicaciones descartadas.")
 
