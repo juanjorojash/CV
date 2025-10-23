@@ -1,9 +1,9 @@
 codigo,area
-JRH0,Sistemas de potencia para pequeños satélites
-JRH0,Sistemas ciberfísicos a la medida orientados a necesidades específicas de usuarios o comunidades
-JRH0,Sistemas de instrumentación hechos a la medida
-JRH0,Caracterizadores de baterías
 ENG01,Custom-made cyber-physical systems oriented to specific user or community needs
 ENG01,Custom-made instrumentation systems
 ENG01,Battery characterization and modeling
 ENG01,Satellite power systems
+SPA01,Sistemas ciberfísicos a la medida orientados a necesidades específicas de usuarios o comunidades
+SPA01,Sistemas de instrumentación a la medida
+SPA01,Caracterización y modelado de baterías
+SPA01,Sistemas de potencia para satelites

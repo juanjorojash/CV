@@ -1,6 +1,9 @@
 codigo,idioma,detalle
-JRH0,Inglés,TOEFL 100/120 iBT
 ENG01,Spanish,Native
-ENG01,English,TOEFL 100/120 iBT
+ENG01,English,C1 OTE
 ENG01,Portuguese,Basic conversation
 ENG01,Japanese,Beginner
+SPA01,Español,Idioma nativo
+SPA01,English,C1 OTE
+SPA01,Portuguese,Básico
+SPA01,Japanese,Principiante

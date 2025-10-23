@@ -4,13 +4,13 @@ import os
 from datetime import date, datetime
 import rendercv.data.generator as gen
 
-model = gen.create_a_sample_data_model(name="juanjoeng", theme="engineeringresumes")
+model = gen.create_a_sample_data_model(name="juanjospa", theme="engineeringresumes")
 
 # Convert to plain dict using Pydantic (no __dict__, no !!python/object, etc.)
 clean_dict = model.model_dump()  # Use .dict() if you're using older pydantic
 
 # Dump as normal YAML
-with open("exampleeng.yaml", 'w', encoding='utf-8') as f:
+with open("examplespa.yaml", 'w', encoding='utf-8') as f:
     yaml.dump(clean_dict, f, allow_unicode=True, sort_keys=False)
 
 today = date.today()
@@ -160,32 +160,33 @@ def make_rendercv_yaml(id,datos,grados):
     interes = make_interest_entries(areas[areas["codigo"]==id])
     certifi = make_certificates_entries(certificados[certificados["codigo"]==id])
     sections = {
-    "Profile": [
-        "Engineer and researcher skilled in PCB design,\
-         3D modeling and simulation, and system integration for cyber-physical systems and custom instrumentation.\
-         Proficient in developing, testing and modeling small-scale energy storage systems, and in creating tailored solutions \
-         for aerospace power systems. Experienced in translating complex system requirements into reliable prototypes and experimental platforms, \
-         combining hardware design, multiphysics simulation, and hands-on implementation in cyber-physical systems for aerospace and IoT applications."
+    "Perfil": [
+        "Ingeniero e investigador especializado en automatización, diseño de PCB, modelado y simulación 3D, e integración de sistemas\
+        para sistemas ciberfísicos e instrumentación a la medida. Experto en el desarrollo, prueba y modelado de sistemas de almacenamiento\
+        de energía a pequeña escala, así como en el diseño y desarrollo de sistemas de potencia y bancos de prueba automatizados aplicados\
+        al ámbito aeroespacial. Con experiencia en traducir requisitos complejos de sistema en prototipos y plataformas experimentales confiables,\
+        combinando diseño de hardware, control automático, simulación multifísica e integración de sistemas para la implementación\
+        de soluciones ciberfísicas en aplicaciones comerciales e industriales."
     ],
-    "Personal information": [
-        {"label": "ID", "details": str(datos["cedula"])},
+    "Información personal": [
+        {"label": "Cédula", "details": str(datos["cedula"])},
         {"label": "ORCID", "details": datos["orcid"] if datos["orcid"] != "00" else "N/A"},
         {"label": "LinkedIn", "details": "[juan-josé-rojas-hernández-257903b](https://www.linkedin.com/in/juan-jos%C3%A9-rojas-hern%C3%A1ndez-257903b/)"},
     ]
     }
-    sections["Education"] = education
+    sections["Educación"] = education
     if experie:
-        sections["Experience"] = experie
+        sections["Experiencia"] = experie
     if languag:
-        sections["Languages"] = languag
+        sections["Lenguajes"] = languag
     if interes:
-        sections["Interests"] = interes
+        sections["Intereses"] = interes
     if public:
-        sections["Publications"] = public
+        sections["Publicaciones"] = public
     if certifi:
-        sections["Certificates"] = certifi
+        sections["Certificados"] = certifi
     if research:
-        sections["Research"] = research
+        sections["Investigacion y desarrollo"] = research
 
     yaml_dict = {
         "cv": {
@@ -196,7 +197,7 @@ def make_rendercv_yaml(id,datos,grados):
         },
         "locale": {
             "phone_number_format": "international",
-            "last_updated_date_template": f"Last updated: {today.strftime("%d/%m/%Y")}",
+            "last_updated_date_template": f"Última actualización: {today.strftime("%d/%m/%Y")}",
             "date_template": "MONTH_ABBREVIATION YEAR",
         },
         "rendercv_settings": {
@@ -212,7 +213,7 @@ def make_rendercv_yaml(id,datos,grados):
             "theme": "engineeringresumes", 
             "entry_types": {
                 "education_entry": {
-                    "main_column_first_row_template": '**INSTITUTION**, DEGREE in AREA',
+                    "main_column_first_row_template": '**INSTITUTION**, DEGREE en AREA',
                     "degree_column_width": "2.5cm"
                 },
                 "experience_entry": {
@@ -233,4 +234,4 @@ def generate_CV(id):
 
 
 
-generate_CV("ENG01")
+generate_CV("SPA01")
