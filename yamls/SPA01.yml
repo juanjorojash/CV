@@ -1,0 +1,321 @@
+cv:
+  name: Dr.-Ing. Juan J. Rojas
+  email: juanjorojash@gmail.com
+  phone: +506-88581419
+  sections:
+    Perfil:
+    - Ingeniero e investigador especializado en automatización, diseño de PCB, modelado
+      y simulación 3D, e integración de sistemas        para sistemas ciberfísicos
+      e instrumentación a la medida. Experto en el desarrollo, prueba y modelado de
+      sistemas de almacenamiento        de energía a pequeña escala, así como en el
+      diseño y desarrollo de sistemas de potencia y bancos de prueba automatizados
+      aplicados        al ámbito aeroespacial. Con experiencia en traducir requisitos
+      complejos de sistema en prototipos y plataformas experimentales confiables,        combinando
+      diseño de hardware, control automático, simulación multifísica e integración
+      de sistemas para la implementación        de soluciones ciberfísicas en aplicaciones
+      comerciales e industriales.
+    Información personal:
+    - label: Cédula
+      details: '303910836'
+    - label: ORCID
+      details: '[0000-0002-3261-5005](https://orcid.org/0000-0002-3261-5005)'
+    - label: LinkedIn
+      details: '[juan-josé-rojas-hernández-257903b](https://www.linkedin.com/in/juan-jos%C3%A9-rojas-hern%C3%A1ndez-257903b/)'
+    Educación:
+    - institution: Kyushu Institute of Technology
+      area: Ciencia Aplicada a la Ingeniería de Integración de Sistemas
+      degree: Doctor
+      location: Japan
+      end_date: '2020'
+    - institution: Instituto Tecnológico de Costa Rica
+      area: Ingeniería Electrónica con énfasis en Microsistemas
+      degree: Master Scientiae
+      location: Costa Rica
+      end_date: '2016'
+    - institution: Instituto Tecnológico de Costa Rica
+      area: Ingeniería Electromecánica
+      degree: Licenciado
+      location: Costa Rica
+      end_date: '2008'
+    Experiencia:
+    - company: Tecnológico de Costa Rica
+      position: Investigador y Profesor
+      start_date: '2014-02-01'
+      end_date: present
+      summary: Impartición de cursos como Electricidad, Control Eléctrico e Instrumentación,
+        y desarrollo de investigación en sistemas ciberfísicos, sistemas de potencia
+        satelital e instrumentación
+    - company: Hotel Crowne Plaza
+      position: Gerente de Mantenimiento
+      start_date: '2013-02-01'
+      end_date: '2013-06-01'
+      summary: Gestión de mantenimiento e inversiones
+    - company: Corporación Musmanni
+      position: Ingeniero de Proyectos
+      start_date: '2012-04-01'
+      end_date: '2012-12-01'
+      summary: Remodelación de instalaciones y coordinación de permisos
+    - company: Walmart
+      position: Ingeniero de Instalaciones Electromecánicas
+      start_date: '2008-12-01'
+      end_date: '2012-03-01'
+      summary: Coordinación de instalaciones electromecánicas en proyectos de construcción
+    Lenguajes:
+    - bullet: 'Español: Idioma nativo'
+    - bullet: 'English: C1 OTE'
+    - bullet: 'Portuguese: Básico'
+    - bullet: 'Japanese: Principiante'
+    Intereses:
+    - bullet: Sistemas ciberfísicos a la medida orientados a necesidades específicas
+        de usuarios o comunidades
+    - bullet: Sistemas de instrumentación a la medida
+    - bullet: Caracterización y modelado de baterías
+    - bullet: Sistemas de potencia para satelites
+    Publicaciones:
+    - title: Diseño de un sistema embebido para el control  y regulación del proceso
+        dinámico de carga y descarga de celdas electroquímicas y su posterior validación
+        para satélites CubeSat 1U.
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Kevin Gómez-Villagra
+      - Juan José Rojas-Hernandez
+      date: 28/06/2024
+      doi: 10.18845/tm.v37i3.6833
+    - title: Desarrollo y prueba de un sistema para sensar de manera remota la velocidad
+        del viento
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Nestor Martínez-Soto
+      - Juan J. Rojas
+      - Gustavo Richmond-Navarro
+      date: 01/08/2022
+      doi: 10.18845/tm.v35i7.6331
+    - title: Evolución vertical de la intensidad de turbulencia del viento en terreno
+        complejo con obstáculos
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Gustavo Richmond-Navarro
+      - Raziel Farid Sanabria-Sandí
+      - Luis Enrique Castro-Rodríguez
+      - Juan J. Rojas
+      - Williams R. Calderón-Muñoz
+      date: 01/08/2022
+      doi: 10.18845/tm.v35i7.6332
+    - title: Integración de un sistema de almacenamiento de energía en un parque eólico,
+        estudio de caso
+      journal: Revista Tecnología en Marcha
+      authors:
+      - Jorge David Araya Rodríguez
+      - Juan J. Rojas
+      - Gustavo Richmond-Navarro
+      date: 01/08/2022
+      doi: 10.18845/tm.v35i7.6333
+    - title: Diseño y desarrollo de una plataforma microfluídica con electrodos interdigitados
+        para espectroscopía por impedancia eléctrica
+      journal: Revista Tecnología en Marcha
+      authors:
+      - José Miguel Barboza-Retana
+      - Cristopher Vega Sánchez
+      - Juan J. Rojas
+      - Steven Quiel Hidalgo
+      - Sofía Madrigal Gamboa
+      - Paola Vega Castillo
+      - Renato Rimolo Donadio
+      date: 15/12/2021
+      doi: 10.18845/tm.v35i1.5389
+    - title: A Lean Satellite Electrical Power System with Direct Energy Transfer
+        and Bus Voltage Regulation Based on a Bi-Directional Buck Converter
+      journal: Aerospace
+      authors:
+      - Juan J. Rojas
+      - Yamauchi Takashi
+      - Mengu Cho
+      date: 05/07/2020
+      doi: 10.3390/aerospace7070094
+    - title: Design, Implementation, and Operation of a Small Satellite Mission to
+        Explore the Space Weather Effects in LEO
+      journal: Aerospace
+      authors:
+      - Isai Fajardo
+      - Aleksander Lidtke
+      - Sidi Bendoukha
+      - Jesus Gonzalez-Llorente
+      - Rafael Rodríguez
+      - Rigoberto Morales
+      - Dmytro Faizullin
+      - Misuzu Matsuoka
+      - Naoya Urakami
+      - Ryo Kawauchi
+      - Masayuki Miyazaki
+      - Naofumi Yamagata
+      - Ken Hatanaka
+      - Farhan Abdullah
+      - Juan Rojas
+      - Mohamed Keshk
+      - Kiruki Cosmas
+      - Tuguldur Ulambayar
+      - Premkumar Saganti
+      - Doug Holland
+      - Tsvetan Dachev
+      - Sean Tuttle
+      - Roger Dudziak
+      - Kei-ichi Okuyama
+      date: 27/09/2019
+      doi: 10.3390/aerospace6100108
+    Certificados:
+    - name: '[Controlador Lógico Programable Básico](nan) en Instituto Tecnológico
+        de Costa Rica'
+      date: 01/10/2025
+    - name: '[Pruebas y Análisis de Datos para Calidad y Confiabilidad](https://badgr.com/public/assertions/3iLZtFBgS8O8gmH4Q3LmXg)
+        en Universidad Estatal de Arizona'
+      date: 04/11/2024
+    - name: '[Aplicación de Modelado Eléctrico y Termomecánico](https://badgr.com/public/assertions/mdNXPDuERpiCluMJ6hl5Ow)
+        en Universidad Estatal de Arizona'
+      date: 28/10/2024
+    - name: '[Selección de Materiales para Desempeño Termomecánico y Eléctrico](https://badgr.com/public/assertions/U6y8WNZyTJaHWdJnz2OR2g)
+        en Universidad Estatal de Arizona'
+      date: 18/10/2024
+    - name: '[Empaquetado y Ensamble 2D](https://badgr.com/public/assertions/6PnNrE-BRDCxMhZX89I3Vg)
+        en Universidad Estatal de Arizona'
+      date: 18/10/2024
+    - name: '[Introducción a los Materiales, Manufactura, Pruebas y Confiabilidad
+        del Empaquetado de Semiconductores](https://badgr.com/public/assertions/WemDIgl2SUallUU6XfLl8A)
+        en Universidad Estatal de Arizona'
+      date: 30/09/2024
+    - name: '[Introducción a la Gestión Térmica y Propiedades Mecánicas del Empaquetado
+        de Semiconductores](https://badgr.com/public/assertions/IvBteFUvQ8ugpXaeYOWj5Q)
+        en Universidad Estatal de Arizona'
+      date: 25/09/2024
+    - name: '[Introducción a los Conceptos Eléctricos en el Empaquetado de Semiconductores](https://badgr.com/public/assertions/COMt3LooTQWtTr5PXILFTQ)
+        en Universidad Estatal de Arizona'
+      date: 16/09/2024
+    - name: '[Introducción al Empaquetado y Diseño de Semiconductores](https://badgr.com/public/assertions/3ehRS86MRYq4kstRwCyMcg)
+        en Universidad Estatal de Arizona'
+      date: 09/09/2024
+    - name: '[Minado de Datos e Inteligencia de Negocios](nan) en Instituto Tecnológico
+        de Costa Rica'
+      date: 01/08/2022
+    - name: '[Big Data](nan) en Instituto Tecnológico de Costa Rica'
+      date: 17/03/2022
+    - name: '[Estadística para Ciencia de Datos](nan) en Instituto Tecnológico de
+        Costa Rica'
+      date: 13/01/2022
+    - name: '[Aprendizaje Automático](nan) en Instituto Tecnológico de Costa Rica'
+      date: 23/09/2021
+    - name: '[Matemáticas para Ciencia de Datos](nan) en Instituto Tecnológico de
+        Costa Rica'
+      date: 22/07/2021
+    - name: '[Introducción a los Sistemas de Gestión de Baterías](https://www.coursera.org/account/accomplishments/verify/F7Q3G8HRKMKB)
+        en Coursera'
+      date: 03/09/2020
+    - name: '[Introducción a los Sistemas Embebidos: Software y Entornos de Desarrollo](https://www.coursera.org/account/accomplishments/verify/2UMXLMB3TKXS)
+        en Coursera'
+      date: 05/09/2019
+    - name: '[Arquitectura de Hardware y Software Embebido](https://www.coursera.org/account/accomplishments/verify/RHTEU3M6VV9X)
+        en Coursera'
+      date: 20/08/2019
+    - name: '[Control de Convertidores](https://www.coursera.org/account/accomplishments/records/QUQBQ3QHCKQL)
+        en Coursera'
+      date: 19/03/2017
+    - name: '[Circuitos Convertidores](https://www.coursera.org/account/accomplishments/records/SV59N2YTCFD2)
+        en Coursera'
+      date: 14/02/2017
+    - name: '[Introducción a la Electrónica de Potencia](https://www.coursera.org/account/accomplishments/verify/5CSXP3DNCMGU)
+        en Coursera'
+      date: 06/12/2016
+    - name: '[Asociado en SolidWorks - Diseño Mecánico](https://cv.virtualtester.com/qr/?b=SLDWRKS&i=C-85F639RSWE)
+        en SolidWorks'
+      date: 22/03/2014
+    Investigacion y desarrollo:
+    - position: 'ASADAS-IoT: desarrollo y transferencia de una plataforma tecnológica
+        escalable, modular y abierta para la ASADA de Paso Ancho, Oreamuno, Cartago'
+      start_date: '2025-01-01'
+      end_date: '2026-12-31'
+      company: Instituto Tecnológico de Costa Rica
+      summary: Diseño, integración, verificación, validación e implementación del
+        sistema de monitoreo para acueductos rurales
+    - position: Desarrollo de una plataforma tecnológica escalable y modular para
+        el registro de variables físicas y químicas asociadas a la calidad y abundancia
+        del agua potable
+      start_date: '2025-01-01'
+      end_date: '2027-12-31'
+      company: Instituto Tecnológico de Costa Rica
+      summary: Integración de sistemas de sensado químico en el sistema de monitoreo
+        para acueductos rurales
+    - position: 'Desarrollo de un sistema de monitoreo y alerta para la detección
+        de exposición al calor en labores agrícolas: aplicación en la cosecha de caña
+        de azúcar'
+      start_date: '2025-01-01'
+      end_date: '2027-12-31'
+      company: Instituto Tecnológico de Costa Rica
+      summary: Diseño, integración, verificación y validación del sistema de monitoreo
+        y alerta
+    - position: 'Mantenimiento predictivo: desarrollo de sistemas de diagnóstico y
+        pronóstico'
+      start_date: '2024-01-01'
+      end_date: '2025-12-31'
+      company: Instituto Tecnológico de Costa Rica
+      summary: Predicción del estado de salud de baterías utilizando conjuntos de
+        datos existentes
+    - position: 'Desarrollo de un plan piloto de digitalización en ASADAS: hacia un
+        mejor aprovechamiento del recurso hídrico mediante sistemas IoT'
+      start_date: '2023-05-15'
+      end_date: '2023-12-31'
+      company: Instituto Tecnológico de Costa Rica
+      summary: Implementación de un sistema piloto de monitoreo integrado para acueductos
+        rurales
+    - position: Desarrollo de un sistema integrado para pruebas de sistemas de potencia
+        en CubeSats
+      start_date: '2022-01-01'
+      end_date: '2024-06-30'
+      company: Instituto Tecnológico de Costa Rica
+      summary: Diseño, integración, verificación y validación del sistema de prueba
+    - position: Diagnóstico del potencial de transformación digital de las Asociaciones
+        Administradoras de Acueductos Rurales (ASADAS) en la Región Chorotega
+      start_date: '2022-01-01'
+      end_date: '2023-06-30'
+      company: Instituto Tecnológico de Costa Rica
+      summary: Entrevistas y análisis con actores clave para iniciativas de transformación
+        digital
+    - position: Desarrollo de un sistema de carga/descarga para evaluación y prueba
+        de celdas electroquímicas
+      start_date: '2016-10-01'
+      end_date: '2016-10-01'
+      company: Instituto de Tecnología de Kyushu (Centro de Pruebas de Nanosatélites)
+      summary: Diseño, integración, verificación y validación del sistema de prueba
+    - position: Satélite Ten-Koh
+      start_date: '2016-09-01'
+      end_date: '2018-11-01'
+      company: Instituto de Tecnología de Kyushu (OkuyamaLAB)
+      summary: Diseño, integración y verificación del subsistema de potencia
+    - position: Satélite BATSU-CS1 (Proyecto Irazú)
+      start_date: '2016-02-01'
+      end_date: '2018-06-01'
+      company: Instituto Tecnológico de Costa Rica
+      summary: Definición y programación de operaciones del segmento de vuelo, pruebas
+        ambientales e integración del sistema
+    - position: Diseño e implementación de un sistema de espectroscopía de impedancia
+        eléctrica para aplicaciones en bioingeniería
+      start_date: '2016-01-01'
+      end_date: '2019-12-31'
+      company: Instituto Tecnológico de Costa Rica
+      summary: Fabricación y prueba de múltiples dispositivos microfluídicos
+locale:
+  phone_number_format: international
+  last_updated_date_template: 'Última actualización: 23/10/2025'
+  date_template: MONTH_ABBREVIATION YEAR
+rendercv_settings:
+  date: '2025-06-08'
+  render_command:
+    output_folder_name: CVs
+    dont_generate_html: true
+    dont_generate_markdown: true
+    dont_generate_png: true
+design:
+  theme: engineeringresumes
+  entry_types:
+    education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE en AREA'
+      degree_column_width: 2.5cm
+    experience_entry:
+      date_and_location_column_template: DATE

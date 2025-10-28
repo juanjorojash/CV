@@ -3,25 +3,22 @@ cv:
   email: juanjorojash@gmail.com
   phone: +506-88581419
   sections:
-    Perfil:
-    - Ingeniero e investigador especializado en automatización, diseño de PCB, modelado
-      y simulación 3D, e integración de sistemas        para sistemas ciberfísicos
-      e instrumentación a la medida. Experto en el desarrollo, prueba y modelado de
-      sistemas de almacenamiento        de energía a pequeña escala, así como en el
-      diseño y desarrollo de sistemas de potencia y bancos de prueba automatizados
-      aplicados        al ámbito aeroespacial. Con experiencia en traducir requisitos
-      complejos de sistema en prototipos y plataformas experimentales confiables,        combinando
-      diseño de hardware, control automático, simulación multifísica e integración
-      de sistemas para la implementación        de soluciones ciberfísicas en aplicaciones
-      comerciales e industriales.
-    Información personal:
-    - label: Cédula
+    Profile:
+    - Engineer and researcher skilled in PCB design,         3D modeling and simulation,
+      and system integration for cyber-physical systems and custom instrumentation.         Proficient
+      in developing, testing and modeling small-scale energy storage systems, and
+      in creating tailored solutions          for aerospace power systems. Experienced
+      in translating complex system requirements into reliable prototypes and experimental
+      platforms,          combining hardware design, multiphysics simulation, and
+      hands-on implementation in cyber-physical systems for aerospace and IoT applications.
+    Personal information:
+    - label: ID
       details: '303910836'
     - label: ORCID
       details: '[0000-0002-3261-5005](https://orcid.org/0000-0002-3261-5005)'
     - label: LinkedIn
       details: '[juan-josé-rojas-hernández-257903b](https://www.linkedin.com/in/juan-jos%C3%A9-rojas-hern%C3%A1ndez-257903b/)'
-    Educación:
+    Education:
     - institution: Kyushu Institute of Technology
       area: Applied science for systems integration engineering
       degree: Doctor
@@ -37,7 +34,7 @@ cv:
       degree: Bachelor
       location: Costa Rica
       end_date: '2008'
-    Experiencia:
+    Experience:
     - company: Tecnológico de Costa Rica
       position: Researcher and Professor
       start_date: '2014-02-01'
@@ -60,18 +57,18 @@ cv:
       start_date: '2008-12-01'
       end_date: '2012-03-01'
       summary: Coordination of electromechanical installations in construction projects
-    Lenguajes:
+    Languages:
     - bullet: 'Spanish: Native'
     - bullet: 'English: C1 OTE'
     - bullet: 'Portuguese: Basic conversation'
     - bullet: 'Japanese: Beginner'
-    Intereses:
+    Interests:
     - bullet: Custom-made cyber-physical systems oriented to specific user or community
         needs
     - bullet: Custom-made instrumentation systems
     - bullet: Battery characterization and modeling
     - bullet: Satellite power systems
-    Publicaciones:
+    Publications:
     - title: Design of an embedded system for the control and regulation of the dynamic
         charging and discharging process of electrochemical cells and its subsequent
         validation for CubeSat 1U satellites
@@ -160,7 +157,7 @@ cv:
       - Kei-ichi Okuyama
       date: 27/09/2019
       doi: 10.3390/aerospace6100108
-    Certificados:
+    Certificates:
     - name: '[Basic programmable logic controller](nan) on Instituto Tecnológico de
         Costa Rica'
       date: 01/10/2025
@@ -222,7 +219,7 @@ cv:
     - name: '[SolidWorks Associate - Mechanical Design](https://cv.virtualtester.com/qr/?b=SLDWRKS&i=C-85F639RSWE)
         on SolidWorks'
       date: 22/03/2014
-    Investigacion y desarrollo:
+    Research:
     - position: 'Development of a Monitoring and Alert System for the Detection of
         Heat Exposure in Agricultural Work: Application in Sugarcane Harvesting'
       start_date: '2025-01-01'
@@ -294,7 +291,7 @@ cv:
       summary: Fabrication and testing of multiple microfluidic devices
 locale:
   phone_number_format: international
-  last_updated_date_template: 'Última actualización: 22/10/2025'
+  last_updated_date_template: 'Last updated: 23/10/2025'
   date_template: MONTH_ABBREVIATION YEAR
 rendercv_settings:
   date: '2025-06-08'
@@ -307,7 +304,7 @@ design:
   theme: engineeringresumes
   entry_types:
     education_entry:
-      main_column_first_row_template: '**INSTITUTION**, DEGREE en AREA'
+      main_column_first_row_template: '**INSTITUTION**, DEGREE in AREA'
       degree_column_width: 2.5cm
     experience_entry:
       date_and_location_column_template: DATE

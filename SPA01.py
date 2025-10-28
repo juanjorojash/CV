@@ -95,7 +95,7 @@ def make_certificates_entries(certificados):
     certificate_entries = []
     for _, row in certificados.iterrows():
         entry = {
-            "name": f"[{row["certificado"]}]({row["link"]}) on {row["institucion"]}",
+            "name": f"[{row["certificado"]}]({row["link"]}) en {row["institucion"]}",
             "date": row["fecha"],
         }
         certificate_entries.append(entry)
