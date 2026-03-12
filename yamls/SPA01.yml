@@ -163,8 +163,14 @@ cv:
       date: 27/09/2019
       doi: 10.3390/aerospace6100108
     Certificados:
-    - name: '[Controlador Lógico Programable Básico](nan) en Instituto Tecnológico
+    - name: '[SCADA](nan) en Instituto Tecnológico de Costa Rica'
+      date: 18/04/2026
+    - name: '[Redes Industriales](nan) en Instituto Tecnológico de Costa Rica'
+      date: 23/02/2026
+    - name: '[PLC Nivel Intermedio: Sistemas Analógicos](nan) en Instituto Tecnológico
         de Costa Rica'
+      date: 03/11/2025
+    - name: '[PLC Nivel Básico](nan) en Instituto Tecnológico de Costa Rica'
       date: 01/10/2025
     - name: '[Pruebas y Análisis de Datos para Calidad y Confiabilidad](https://badgr.com/public/assertions/3iLZtFBgS8O8gmH4Q3LmXg)
         en Universidad Estatal de Arizona'
@@ -302,7 +308,7 @@ cv:
       summary: Fabricación y prueba de múltiples dispositivos microfluídicos
 locale:
   phone_number_format: international
-  last_updated_date_template: 'Última actualización: 23/10/2025'
+  last_updated_date_template: 'Última actualización: 12/03/2026'
   date_template: MONTH_ABBREVIATION YEAR
 rendercv_settings:
   date: '2025-06-08'

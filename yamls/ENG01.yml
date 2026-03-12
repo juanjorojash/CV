@@ -158,8 +158,14 @@ cv:
       date: 27/09/2019
       doi: 10.3390/aerospace6100108
     Certificates:
-    - name: '[Basic programmable logic controller](nan) on Instituto Tecnológico de
-        Costa Rica'
+    - name: '[SCADA](nan) on Instituto Tecnológico de Costa Rica'
+      date: 18/04/2026
+    - name: '[Industrial Networks](nan) on Instituto Tecnológico de Costa Rica'
+      date: 23/02/2026
+    - name: '[PLC Intermediate Level: Analog Systems](nan) on Instituto Tecnológico
+        de Costa Rica'
+      date: 03/11/2025
+    - name: '[PLC Basic Level](nan) on Instituto Tecnológico de Costa Rica'
       date: 01/10/2025
     - name: '[Test and Data Analysis for Quality and Reliability](https://badgr.com/public/assertions/3iLZtFBgS8O8gmH4Q3LmXg)
         on Arizona State University'
@@ -167,10 +173,10 @@ cv:
     - name: '[Application of Electrical & Thermo-Mechanical Modeling](https://badgr.com/public/assertions/mdNXPDuERpiCluMJ6hl5Ow)
         on Arizona State University'
       date: 28/10/2024
-    - name: '[2D Packaging & Assembly](https://badgr.com/public/assertions/6PnNrE-BRDCxMhZX89I3Vg)
+    - name: '[Materials Selection for Thermo-Mechanical and Electrical Performance](https://badgr.com/public/assertions/U6y8WNZyTJaHWdJnz2OR2g)
         on Arizona State University'
       date: 18/10/2024
-    - name: '[Materials Selection for Thermo-Mechanical and Electrical Performance](https://badgr.com/public/assertions/U6y8WNZyTJaHWdJnz2OR2g)
+    - name: '[2D Packaging & Assembly](https://badgr.com/public/assertions/6PnNrE-BRDCxMhZX89I3Vg)
         on Arizona State University'
       date: 18/10/2024
     - name: '[Introduction to Packaging Materials, Manufacturing, Test, and Reliability](https://badgr.com/public/assertions/WemDIgl2SUallUU6XfLl8A)
@@ -291,7 +297,7 @@ cv:
       summary: Fabrication and testing of multiple microfluidic devices
 locale:
   phone_number_format: international
-  last_updated_date_template: 'Last updated: 23/10/2025'
+  last_updated_date_template: 'Last updated: 12/03/2026'
   date_template: MONTH_ABBREVIATION YEAR
 rendercv_settings:
   date: '2025-06-08'
